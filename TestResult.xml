@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\Calculator\Calculator\Calculator.nunit" total="25" failures="0" not-run="0" date="2007-07-18" time="16:13:53">
+  <environment nunit-version="2.4.1.0" clr-version="2.0.50727.832" os-version="Microsoft Windows NT 5.1.2600 Service Pack 2" platform="Win32NT" cwd="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\Calculator\Calculator" machine-name="WPRIMSO10" user="Administrator" user-domain="WPRIMSO10" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\Calculator\Calculator\Calculator.nunit" success="True" time="0.120" asserts="0">
+    <results>
+      <test-suite name="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\Calculator\Calculator\bin\Debug\Calculator#.exe" success="True" time="0.120" asserts="0">
+        <results>
+          <test-suite name="Calculator" success="True" time="0.120" asserts="0">
+            <results>
+              <test-suite name="Test_Appending" success="True" time="0.050" asserts="0">
+                <results>
+                  <test-case name="Calculator.Test_Appending.appendDigit_0_9" executed="True" success="True" time="0.020" asserts="21" />
+                  <test-case name="Calculator.Test_Appending.appendDigit_decimal" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="Calculator.Test_Appending.appendDigit_multiple" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="Calculator.Test_Appending.appendNum_decimal" executed="True" success="True" time="0.000" asserts="10" />
+                  <test-case name="Calculator.Test_Appending.appendNum_multiple" executed="True" success="True" time="0.020" asserts="6" />
+                </results>
+              </test-suite>
+              <test-suite name="Test_MathFunctions" success="True" time="0.020" asserts="0">
+                <results>
+                  <test-case name="Calculator.Test_MathFunctions.math_ADD" executed="True" success="True" time="0.000" asserts="14" />
+                  <test-case name="Calculator.Test_MathFunctions.math_DIF_OPERATIONS" executed="True" success="True" time="0.010" asserts="11" />
+                  <test-case name="Calculator.Test_MathFunctions.math_DIVIDE" executed="True" success="True" time="0.000" asserts="15" />
+                  <test-case name="Calculator.Test_MathFunctions.math_MULTIPLY" executed="True" success="True" time="0.000" asserts="14" />
+                  <test-case name="Calculator.Test_MathFunctions.math_SUBTRACT" executed="True" success="True" time="0.000" asserts="14" />
+                </results>
+              </test-suite>
+              <test-suite name="Test_Memory" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="Calculator.Test_Memory.clearAll" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="Calculator.Test_Memory.clearMemory" executed="True" success="True" time="0.000" asserts="5" />
+                  <test-case name="Calculator.Test_Memory.recallMemory" executed="True" success="True" time="0.000" asserts="4" />
+                  <test-case name="Calculator.Test_Memory.storeMemory" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="Calculator.Test_Memory.sumToMemory" executed="True" success="True" time="0.000" asserts="6" />
+                </results>
+              </test-suite>
+              <test-suite name="Test_MiscFunctions" success="True" time="0.020" asserts="0">
+                <results>
+                  <test-case name="Calculator.Test_MiscFunctions.misc_BACKSPACE" executed="True" success="True" time="0.010" asserts="14" />
+                  <test-case name="Calculator.Test_MiscFunctions.misc_clearEntry" executed="True" success="True" time="0.000" asserts="4" />
+                  <test-case name="Calculator.Test_MiscFunctions.misc_INVERSE" executed="True" success="True" time="0.000" asserts="5" />
+                  <test-case name="Calculator.Test_MiscFunctions.misc_PARENTHESES" executed="True" success="True" time="0.010" asserts="12" />
+                  <test-case name="Calculator.Test_MiscFunctions.misc_PERCENT" executed="True" success="True" time="0.000" asserts="14" />
+                  <test-case name="Calculator.Test_MiscFunctions.misc_SQRT" executed="True" success="True" time="0.000" asserts="6" />
+                </results>
+              </test-suite>
+              <test-suite name="Test_TrigFunctions" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="Calculator.Test_TrigFunctions.trig_COS" executed="True" success="True" time="0.000" asserts="8" />
+                  <test-case name="Calculator.Test_TrigFunctions.trig_PI" executed="True" success="True" time="0.000" asserts="5" />
+                  <test-case name="Calculator.Test_TrigFunctions.trig_SIN" executed="True" success="True" time="0.000" asserts="8" />
+                  <test-case name="Calculator.Test_TrigFunctions.trig_TAN" executed="True" success="True" time="0.000" asserts="8" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

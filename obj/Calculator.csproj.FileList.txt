@@ -1,0 +1,12 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Calculator.Properties.Resources.resources
+obj\Debug\Calculator.csproj.GenerateResource.Cache
+bin\Debug\Calculator#.exe
+bin\Debug\Calculator#.pdb
+obj\Debug\Calculator#.exe
+obj\Debug\Calculator#.pdb
+obj\Debug\Calculator.Calculator.resources
+obj\Debug\Calculator.AboutBox2.resources
+bin\Debug\nunit.framework.dll
+bin\Debug\nunit.framework.xml
+bin\Debug\Documentation.htm
